@@ -1,0 +1,30 @@
+body{}
+
+.btn-go-to{
+    border-radius: 122px 122px 122px 122px !important;
+    font-size: 16px;
+    width: 350px;
+}
+.footer-links a {
+    margin-right: 30px; /* Ajusta el valor según tu preferencia */
+    font-size: 13px;
+    text-decoration: none;
+    color: rgb(41, 41, 41);
+}
+.text-secondary-p{
+    font-size: 11px !important;
+}
+
+nav{
+    display: none !important;
+}
+
+.big-input{
+    padding: 13px 13px;
+}
+.modal-content{
+    border-radius: 12px !important;
+}
+.big-input::placeholder {
+    font-size: 14px; /* Ajusta el tamaño según tus preferencias */
+}

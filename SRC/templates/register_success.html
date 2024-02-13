@@ -1,0 +1,24 @@
+{% include 'mainmenu.html' %}
+
+{% block body %}
+<link rel="stylesheet" href="{{ url_for('static', filename='CSS/index.css') }}">
+
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+<div class="container-fluid d-flex align-items-center justify-content-center vh-100">
+    <div class="row">
+        <!-- Componentes al lado -->
+        <div class="col-md-7 align-self-center">
+            <div>
+                <h1>Gracias Por registrarte.</h1>
+                <p>Todo listo, ahora solo dinos la siguiente información.</p><br>
+                <a href="#" class="btn btn-outline-dark btn-lg active btn-go-to" role="button" aria-pressed="true" data-bs-toggle="modal" data-bs-target="#myModal">Register</a> 
+                <p class="text-secondary-p" style="margin-top: 14px;">by signing up, you agree to the Terms of Service and Privacy Policy, <br> including Cookie Use.</p>
+                <hr width="192">
+                <a href="#" class="btn btn-outline-dark btn-lg btn-go-to text-center" role="button" aria-pressed="true">Log In</a><br>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
